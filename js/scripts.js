@@ -2,4 +2,7 @@
 console.log('OK');
 
 // Your Awesome Scripts
-$('iframe').fitvids(); 
+$(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("iframe").fitVids();
+  });
