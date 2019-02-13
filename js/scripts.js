@@ -2,3 +2,4 @@
 console.log('OK');
 
 // Your Awesome Scripts
+$('iframe').fitvids(); 

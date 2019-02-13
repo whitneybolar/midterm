@@ -5,8 +5,16 @@ body {
   background: gray;
 }
 
-* {
-  outline: 1px dotted black;
+
+main{
+  display: flex;
+  justify-content: center; 
+}
+
+iframe {
+  border: solid maroon 5px; 
+  height: 400px; 
+  width: 700px; 
 }
 
 /* Your Awesome Scripts */
