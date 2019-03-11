@@ -8,5 +8,9 @@ console.log('OK');
 //});
 
 $(function() {
-  $('[data-spzoom]').spzoom();
+  $('[data-spzoom]').spzoom({
+    width: 500,
+    height: 500,
+    position: 'left',
+  });
 });
